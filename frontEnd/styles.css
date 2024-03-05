@@ -1,0 +1,46 @@
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+
+}
+
+form > *{
+    width: 22.7%;
+    margin-top: 0;     
+    margin-right: 2%;   
+    margin-bottom: 2%;  
+    margin-left: 0;  
+
+}
+
+.contenedor-platos{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    
+}
+
+.plato-info{
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+
+}
+
+.plato-info > button{
+
+    width: 50%;
+    
+}
+
+.boton-actualizar{
+
+    background-color: red;
+}
